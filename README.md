@@ -1,12 +1,6 @@
 # V2ray Collector
 
 <p align="center">
-  <a href="https://t.me/e_mkz">
-    <img src="https://img.shields.io/badge/Telegram_Bot-@Here_is_Nowhwere-darkblue?style=flat&logo=telegram" alt="Telegram Bot">
-  </a>
-</p>
-
-<p align="center">
   <b>This project is intended for educational purposes only. Any other use of it, including commercial, personal, or non-educational use, is not accepted!</b>
 </p>
 
