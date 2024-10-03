@@ -9,3 +9,4 @@ vless://5df7962e-f9fe-41e6-ab49-ed96ccb856a7@172.66.44.135:80?encryption=none&ho
 vless://47a78eb2-f224-4d99-be8b-d659d82fbf0c@www.speedtest.net:8880?encryption=none&host=ch.%E6%88%91%E7%9A%84%E5%90%8D%E5%AD%97%E4%BC%8A%E6%96%AF%E6%A2%85%E6%B4%9B.site.&path=%2Fmelo%2F&security=none&type=ws#رایگان | VLESS | @flyv2ray | CA🇨🇦 | 0️⃣5️⃣
 vless://Mahanvpn--insta3@dEbngCbC.kouRdspEed.ir:8080?encryption=none&host=dEbngCbC.kouRdspEed.ir.&path=%2F%3Fed%3D2048&security=none&type=httpupgrade#رایگان | VLESS | @kingofilter | CA🇨🇦 | 0️⃣1️⃣
 vless://Mahanvpn--insta3@172.67.160.192:8080?encryption=none&host=dEbngCbC.kouRdspEed.ir.&path=%2F%3Fed%3D2048&security=none&type=httpupgrade#رایگان | VLESS | @kingofilter | CA🇨🇦 | 0️⃣2️⃣
+trojan://telegram-id-directvpn@99.79.187.13:22222?alpn=http%2F1.1&headerType=none&security=tls&sni=trojan.burgerip.co.uk&type=tcp#رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣1️⃣
