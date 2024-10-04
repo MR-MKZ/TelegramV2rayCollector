@@ -198,9 +198,9 @@
         {
             "tag": "رایگان | VMESS | @mftizi | US🇺🇸 | 0️⃣2️⃣",
             "type": "vmess",
-            "server": "104.19.51.232",
-            "server_port": 2086,
-            "uuid": "29eebb60-b27b-4a9d-bba5-947763d9205e",
+            "server": "mugen11.6bnw.top",
+            "server_port": 8080,
+            "uuid": "4b1b1e13-1e02-4b73-848a-e99cefab6f55",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -213,11 +213,11 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/github.com\/Alvin9999",
+                "path": "\/cctv",
                 "headers": {
-                    "Host": "ip005.dtku47.xyz"
+                    "Host": "buyvmus.6bnw.top"
                 },
-                "max_early_data": 0,
+                "max_early_data": 2048,
                 "early_data_header_name": "Sec-WebSocket-Protocol"
             }
         },
