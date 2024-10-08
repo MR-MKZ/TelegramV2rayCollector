@@ -112,6 +112,7 @@
                 "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣4️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣5️⃣",
+                "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣6️⃣",
                 "رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
@@ -334,6 +335,7 @@
                 "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣3️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣4️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣5️⃣",
+                "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣6️⃣",
                 "رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @proxystore11 | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | VMESS | @yaney_01 | US🇺🇸 | 0️⃣1️⃣",
@@ -708,6 +710,23 @@
             "server": "23.154.136.47",
             "server_port": 22324,
             "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VMESS | @ShadowProxy66 | US🇺🇸 | 0️⃣6️⃣",
+            "type": "vmess",
+            "server": "108.181.200.220",
+            "server_port": 17163,
+            "uuid": "d54814a1-7a93-45f8-9117-db317a25d100",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2140,7 +2159,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "d8f9bc81-4f33-4bc3-993e-76d0d3249fc5",
+            "uuid": "20cd6da3-f3e7-437f-932b-f5c37ef3d7b4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2163,7 +2182,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "544f56a2-bc5b-4c81-ad65-bcc8c17e8a2b",
+            "uuid": "d8f9bc81-4f33-4bc3-993e-76d0d3249fc5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2186,7 +2205,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "544f56a2-bc5b-4c81-ad65-bcc8c17e8a2b",
+            "uuid": "d8f9bc81-4f33-4bc3-993e-76d0d3249fc5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2209,7 +2228,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "3eb3b7f8-dabc-4738-9ea6-8b56ae7dbd78",
+            "uuid": "544f56a2-bc5b-4c81-ad65-bcc8c17e8a2b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2232,7 +2251,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "3eb3b7f8-dabc-4738-9ea6-8b56ae7dbd78",
+            "uuid": "544f56a2-bc5b-4c81-ad65-bcc8c17e8a2b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2255,7 +2274,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "f39c9c20-38da-41d7-ba2b-cd83ea45e8f8",
+            "uuid": "3eb3b7f8-dabc-4738-9ea6-8b56ae7dbd78",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2278,7 +2297,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "f39c9c20-38da-41d7-ba2b-cd83ea45e8f8",
+            "uuid": "3eb3b7f8-dabc-4738-9ea6-8b56ae7dbd78",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
