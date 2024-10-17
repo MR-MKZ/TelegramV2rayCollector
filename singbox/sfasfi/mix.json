@@ -349,14 +349,17 @@
                 "رایگان | VLESS | @XsV2ray | CA🇨🇦 | 0️⃣5️⃣",
                 "رایگان | VLESS | @VlessConfig | CA🇨🇦 | 0️⃣1️⃣",
                 "رایگان | VLESS | @VlessConfig | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣4️⃣",
                 "رایگان | VLESS | @CUSTOMVPNSERVER | DE🇩🇪 | 0️⃣1️⃣",
                 "رایگان | VLESS | @CUSTOMVPNSERVER | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @CUSTOMVPNSERVER | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @customv2ray | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣4️⃣",
                 "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣6️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣7️⃣",
+                "رایگان | VLESS | @DarkTeam_VPN | IR🇮🇷 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | VLESS | @kingofilter | IR🇮🇷 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | IE🇮🇪 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | FR🇫🇷 | 0️⃣4️⃣",
@@ -625,7 +628,8 @@
             "outbounds": [
                 "رایگان | VLESS | @XsV2ray | CA🇨🇦 | 0️⃣5️⃣",
                 "رایگان | VLESS | @VlessConfig | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | VLESS | @VlessConfig | CA🇨🇦 | 0️⃣2️⃣"
+                "رایگان | VLESS | @VlessConfig | CA🇨🇦 | 0️⃣2️⃣",
+                "رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣4️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -639,7 +643,7 @@
                 "رایگان | VLESS | @CUSTOMVPNSERVER | DE🇩🇪 | 0️⃣2️⃣",
                 "رایگان | VLESS | @CUSTOMVPNSERVER | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | REALITY | @customv2ray | DE🇩🇪 | 0️⃣3️⃣",
-                "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣3️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣4️⃣",
                 "رایگان | REALITY | @proxyymeliii | DE🇩🇪 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣6️⃣",
                 "رایگان | TROJAN | @PrivateVPNs | DE🇩🇪 | 0️⃣7️⃣"
@@ -652,6 +656,8 @@
             "tag": "IR🇮🇷",
             "type": "urltest",
             "outbounds": [
+                "رایگان | VLESS | @DarkTeam_VPN | IR🇮🇷 | 0️⃣1️⃣",
+                "رایگان | VLESS | @ShadowProxy66 | IR🇮🇷 | 0️⃣3️⃣",
                 "رایگان | VLESS | @kingofilter | IR🇮🇷 | 0️⃣1️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -2777,7 +2783,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "b53761be-1e50-4c8d-8b8b-fcb2cb8043f3",
+            "uuid": "09b7e2b5-0123-4657-8acf-701d3665ca67",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2800,7 +2806,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "0e293de3-9ce0-4163-8eb1-750c0429331c",
+            "uuid": "b53761be-1e50-4c8d-8b8b-fcb2cb8043f3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2823,7 +2829,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "0e293de3-9ce0-4163-8eb1-750c0429331c",
+            "uuid": "b53761be-1e50-4c8d-8b8b-fcb2cb8043f3",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2846,7 +2852,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "3ef52bb7-be74-4b63-9901-518e34d3b8fd",
+            "uuid": "0e293de3-9ce0-4163-8eb1-750c0429331c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2869,7 +2875,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "3ef52bb7-be74-4b63-9901-518e34d3b8fd",
+            "uuid": "0e293de3-9ce0-4163-8eb1-750c0429331c",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2892,7 +2898,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "c47c4c14-4647-4f51-bb97-0876fe23b389",
+            "uuid": "3ef52bb7-be74-4b63-9901-518e34d3b8fd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2915,7 +2921,7 @@
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
-            "uuid": "c47c4c14-4647-4f51-bb97-0876fe23b389",
+            "uuid": "3ef52bb7-be74-4b63-9901-518e34d3b8fd",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -6931,6 +6937,27 @@
             }
         },
         {
+            "tag": "رایگان | TROJAN | @DirectVPN | CA🇨🇦 | 0️⃣4️⃣",
+            "type": "trojan",
+            "server": "3.96.28.242",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "رایگان | VLESS | @CUSTOMVPNSERVER | DE🇩🇪 | 0️⃣1️⃣",
             "type": "vless",
             "server": "ALL-CUSTOMVPNSERVER.IPSTOREIRAN.COM",
@@ -7028,7 +7055,7 @@
             }
         },
         {
-            "tag": "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣3️⃣",
+            "tag": "رایگان | VLESS | @ShadowProxy66 | DE🇩🇪 | 0️⃣4️⃣",
             "type": "vless",
             "server": "50.7.85.221",
             "server_port": 443,
@@ -7113,6 +7140,34 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @DarkTeam_VPN | IR🇮🇷 | 0️⃣1️⃣",
+            "type": "vless",
+            "server": "ir1.ordeloil.com",
+            "server_port": 2083,
+            "uuid": "c882bbc8-02cc-4e1d-94b8-d5a84fbb4898",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "رایگان | VLESS | @ShadowProxy66 | IR🇮🇷 | 0️⃣3️⃣",
+            "type": "vless",
+            "server": "62.60.222.104",
+            "server_port": 28162,
+            "uuid": "f1f166b8-bd43-49da-b8f7-eac656e37934",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
