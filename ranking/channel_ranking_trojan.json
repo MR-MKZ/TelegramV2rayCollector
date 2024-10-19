@@ -1,9 +1,9 @@
 {
-    "date": "2024-10-19 06:49:14",
+    "date": "2024-10-19 07:47:40",
     "points": {
-        "PrivateVPNs": 42.46619508125489,
-        "vmess_vless_v2rayng": 33.35769052389587,
-        "DirectVPN": 30.3435653265432,
-        "kingofilter": 22.50923390846724
+        "PrivateVPNs": 49.53623149946553,
+        "vmess_vless_v2rayng": 37.97865248449706,
+        "DirectVPN": 35.395007191531015,
+        "kingofilter": 26.28028117044854
     }
 }
