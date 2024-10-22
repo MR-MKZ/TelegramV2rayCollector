@@ -118,8 +118,8 @@
                 "IR🇮🇷",
                 "IE🇮🇪",
                 "GB🇬🇧",
-                "CA🇨🇦",
-                "BH🇧🇭"
+                "BH🇧🇭",
+                "AE🇦🇪"
             ]
         },
         {
@@ -305,6 +305,7 @@
                 "رایگان | TROJAN | @vmess_vless_v2rayng | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @vmess_vless_v2rayng | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @vmess_vless_v2rayng | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @kingofilter | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @kingofilter | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @kingofilter | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | VMESS | @ShadowProxy66 | CH🇨🇭 | 0️⃣1️⃣",
@@ -343,8 +344,8 @@
                 "رایگان | TROJAN | @PrivateVPNs | GB🇬🇧 | 0️⃣3️⃣",
                 "رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @DirectVPN | GB🇬🇧 | 0️⃣3️⃣",
-                "رایگان | TROJAN | @kingofilter | CA🇨🇦 | 0️⃣1️⃣",
-                "رایگان | SS | @kingofilter | BH🇧🇭 | 0️⃣2️⃣"
+                "رایگان | SS | @kingofilter | BH🇧🇭 | 0️⃣2️⃣",
+                "رایگان | SS | @kingofilter | AE🇦🇪 | 0️⃣6️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -533,6 +534,7 @@
                 "رایگان | TROJAN | @vmess_vless_v2rayng | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @vmess_vless_v2rayng | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | TROJAN | @vmess_vless_v2rayng | US🇺🇸 | 0️⃣3️⃣",
+                "رایگان | TROJAN | @kingofilter | US🇺🇸 | 0️⃣1️⃣",
                 "رایگان | TROJAN | @kingofilter | US🇺🇸 | 0️⃣2️⃣",
                 "رایگان | SS | @kingofilter | US🇺🇸 | 0️⃣1️⃣"
             ],
@@ -640,20 +642,20 @@
             "tolerance": 50
         },
         {
-            "tag": "CA🇨🇦",
+            "tag": "BH🇧🇭",
             "type": "urltest",
             "outbounds": [
-                "رایگان | TROJAN | @kingofilter | CA🇨🇦 | 0️⃣1️⃣"
+                "رایگان | SS | @kingofilter | BH🇧🇭 | 0️⃣2️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
             "tolerance": 50
         },
         {
-            "tag": "BH🇧🇭",
+            "tag": "AE🇦🇪",
             "type": "urltest",
             "outbounds": [
-                "رایگان | SS | @kingofilter | BH🇧🇭 | 0️⃣2️⃣"
+                "رایگان | SS | @kingofilter | AE🇦🇪 | 0️⃣6️⃣"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "5m",
@@ -5450,6 +5452,34 @@
             }
         },
         {
+            "tag": "رایگان | TROJAN | @kingofilter | US🇺🇸 | 0️⃣1️⃣",
+            "type": "trojan",
+            "server": "172.67.204.84",
+            "server_port": 443,
+            "password": "Watashi_VPN",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "t-watashi-r-jacket-o-people-jan.watashi-java.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "t-watashi-r-jacket-o-people-jan.watashi-java.ir"
+                }
+            }
+        },
+        {
             "tag": "رایگان | TROJAN | @kingofilter | US🇺🇸 | 0️⃣2️⃣",
             "type": "trojan",
             "server": "172.67.2.238",
@@ -6282,40 +6312,22 @@
             }
         },
         {
-            "tag": "رایگان | TROJAN | @kingofilter | CA🇨🇦 | 0️⃣1️⃣",
-            "type": "trojan",
-            "server": "172.67.204.84",
-            "server_port": 443,
-            "password": "Watashi_VPN",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "t-watashi-r-jacket-o-people-jan.watashi-java.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "t-watashi-r-jacket-o-people-jan.watashi-java.ir"
-                }
-            }
-        },
-        {
             "tag": "رایگان | SS | @kingofilter | BH🇧🇭 | 0️⃣2️⃣",
             "type": "shadowsocks",
             "server": "series-a2-me.varzesh360.co",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
             "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "رایگان | SS | @kingofilter | AE🇦🇪 | 0️⃣6️⃣",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
             "plugin": "",
             "plugin_opts": ""
         },
